@@ -1,0 +1,27 @@
+spring:
+  aop:
+    auto: true
+
+mybatis:
+  config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
+  type-aliases-package: com.sky.springcloud.module
+  mapper-locations:
+  - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件
+
+#配置数据源
+hikaricp:
+  test1:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    jdbc-url: jdbc:mysql://192.168.1.151:3306/cloudDB01
+    username: root
+    password: Citi2013
+    maximum-pool-size: 10
+
+  test2:
+    jdbc-url: jdbc:mysql://192.168.1.151:3306/cloudDB02
+    username: root
+    password: Citi2013
+    maximum-pool-size: 10
+
+
+
