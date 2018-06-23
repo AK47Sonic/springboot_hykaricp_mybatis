@@ -20,6 +20,7 @@ public class ApplicationStarter implements CommandLineRunner {
     @Override
     public void run(String... strings) throws Exception {
         System.out.println(userInfoController.getUserInfoById(1));
+        System.out.println(userInfoController.selectUserInfoById(1));
 
     }
 }

@@ -12,11 +12,10 @@ public class UserInfoService {
     private UserInfoMapper userInfoMapper;
 
     public UserInfo getUserInfoById(Integer id) {
-       return userInfoMapper.getUserInfoById(id);
+        return userInfoMapper.getUserInfoById(id);
     }
 
     public UserInfo selectUserInfoById(Integer id) {
         return userInfoMapper.selectByOddUserId(id);
     }
-
 }

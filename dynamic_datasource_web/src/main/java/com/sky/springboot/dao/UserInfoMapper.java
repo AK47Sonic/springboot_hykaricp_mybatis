@@ -18,6 +18,7 @@ public interface UserInfoMapper {
 	UserInfo selectByEvenUserId(Integer id);
 
 	@TargetDataSource("test2")
+
 	UserInfo getUserInfoById(Integer id);
 
 }

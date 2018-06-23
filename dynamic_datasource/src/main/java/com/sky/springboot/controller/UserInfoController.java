@@ -15,4 +15,8 @@ public class UserInfoController {
         return userInfoService.getUserInfoById(id);
     }
 
+    public UserInfo selectUserInfoById(Integer id) {
+        return userInfoService.selectUserInfoById(id);
+    }
+
 }
