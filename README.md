@@ -64,7 +64,8 @@ target
 
 ```
 5.验证是否在Eclipse或者IDEA的提交列表中已经排除工程类文件
-6.如果有自己的一些特殊文件不需要提交的，请在本项目中的.gitignore文件中设置  
+6.如果有自己的一些特殊文件不需要提交的，请在本项目中的.gitignore文件中设置
+
 ![gitigore](pic/gitignore.JPG)
 
 
