@@ -1,7 +1,9 @@
 # springboot_hykaricp_mybatis
 
 ### 项目须知：
+
 ###### 配置全局.gitignore
+
 1.在C:\Users\Administrator下创建.gitignore_global
 ```git
 git config --global core.excludesfile ~/.gitignore_global
@@ -64,9 +66,9 @@ target
 
 ```
 5.验证是否在Eclipse或者IDEA的提交列表中已经排除工程类文件
+
 6.如果有自己的一些特殊文件不需要提交的，请在本项目中的.gitignore文件中设置
 
 ![gitigore](pic/gitignore.JPG)
-
-
+ 
 
