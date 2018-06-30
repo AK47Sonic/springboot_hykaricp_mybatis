@@ -7,15 +7,20 @@
 git config --global core.excludesfile ~/.gitignore_global
 ```
 2.在C:\Users\Administrator下检查.gitconfig文件内容, 确保已经设置excludesfile
-```git
+```text
 [user]
 	name = AK47Sonic
 	email = ******@qq.com
 [core]
 	excludesfile = C:/Users/Administrator/.gitignore_global
 ```
-3.在.gitignore_global文件中添加如下内容
+3.使用Git Bash 创建.gitignore_global
 ```git
+$ cd ~
+$ vi .gitignore_global
+```
+4.在.gitignore_global文件中添加如下内容
+```text
 
 # Compiled class file
 *.class
@@ -58,8 +63,8 @@ gen
 target
 
 ```
-4.验证是否在Eclipse或者IDEA的提交列表中已经排除工程类文件
-5.如果有自己的一些特殊文件不需要提交的，请在本项目中的.gitignore文件中设置  
+5.验证是否在Eclipse或者IDEA的提交列表中已经排除工程类文件
+6.如果有自己的一些特殊文件不需要提交的，请在本项目中的.gitignore文件中设置  
 ![gitigore](pic/gitignore.JPG)
 
 
