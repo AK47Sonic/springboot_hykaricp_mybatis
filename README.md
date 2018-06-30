@@ -1,8 +1,8 @@
 # springboot_hykaricp_mybatis
 
-### 项目须知：
+## 项目须知：
 
-###### 配置全局.gitignore
+#### 配置全局.gitignore
 
 1.在C:\Users\Administrator下创建.gitignore_global
 ```git
